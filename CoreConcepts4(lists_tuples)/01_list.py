@@ -6,6 +6,9 @@ friends[0] = "Grapes" # Unlike Strings lists are mutable
 print(friends[0])
 print(friends[1:4])
 
+print("this is for ::")
+print(friends[::2])
+
 
 # string ko change nhi kr skte
 # list is mutable 
