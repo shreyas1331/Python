@@ -24,9 +24,18 @@ def avg():
 
 avg() # Function Call
 print("Thank you!")
-avg()
+# avg()
 print("Thank you!")
-avg()
+# avg()
 print("Thank you!")
-avg()
-avg()
+# avg()
+# avg()
+
+
+def find_gst(price):
+    price=price+(price*0.18)
+    print(price)
+
+find_gst(100)    
+ans=find_gst(500)
+print(ans," this is the GST price")
